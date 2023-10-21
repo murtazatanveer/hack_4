@@ -23,7 +23,7 @@ float year_inf = atof(argc[4]);
 float years = atof(argc[5]);
 
 
-float = (1 + year_per)/(1 + year_inf) - 1;
+float month_avg = (1 + year_per)/(1 + year_inf) - 1;
 
 float months = years*12;
 
@@ -38,11 +38,12 @@ if(err > 18500){
 
 else{
 
-float interest;
+double interest;
+
 
 for ( int mon = 1; i<=months ; mon++){
 
-
+interest = month_avg * amount;
 
 }
 
