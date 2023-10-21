@@ -27,6 +27,14 @@ float = (1 + year_per)/(1 + year_inf) - 1;
 
 float err =  month_add * (years*12);
 
+if(err > 18500){
 
+    printf("\n\nExceeding maximum annual contribution limit of $18,500.\n")
+}
+
+else{
+
+    
+}
 
 }
