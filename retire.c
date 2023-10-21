@@ -12,13 +12,20 @@ int main(int argv, char **argc){
 printf("\nMade by : MURTAZA TANVEER\nReg no  : SP23-BSE-096-2C");
 printf("\n\n____________________WELCOME TO MOBILE DATA USAGE TRACKER___________________\n\n\n");
 
-float bal = atof(argc[1]);
+float amount = atof(argc[1]);
 
 float month_add = atof(argc[2]);
 
 float year_per = atof(argc[3]);
 
 float year_inf = atof(argc[4]);
+
+float years = atof(argc[5]);
+
+
+float = (1 + year_per)/(1 + year_inf) - 1;
+
+float err =  month_add * (years*12);
 
 
 
