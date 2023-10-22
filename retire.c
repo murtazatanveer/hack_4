@@ -10,7 +10,8 @@ int main(int argv, char **argc){
 
 
 printf("\nMade by : MURTAZA TANVEER\nReg no  : SP23-BSE-096-2C");
-printf("\n\n____________________WELCOME TO MOBILE DATA USAGE TRACKER___________________\n\n\n");
+
+printf("\n\n____________________WELCOME TO 401(K) PLAN___________________\n\n\n");
 
 float amount = atof(argc[1]);
 
@@ -43,12 +44,16 @@ double sum_interest=0;
 double amount_tot;
 
 for ( int i = 1; i<=months ; i++){
+    
 
 interest = month_avg * amount;
 
 sum_interest = sum_interest + interest;
 
 amount_tot = sum_interest + amount;
+
+printf("%d\t%.2lf $ \t%.2lf $ \n\n",i,interest,amount_tot);
+
 
 
 }
