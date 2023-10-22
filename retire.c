@@ -62,7 +62,7 @@ printf("\n\n___________________FINAL AMOUNTS__________________\n\n");
 
 printf("\nTotal Amount of Interest : $ %.2lf\n\n",sum_interest);
 
-
+printf("\n\nTotal Amount of %f Years is  $ %.2lf\n");
 
 
 }
