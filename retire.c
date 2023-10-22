@@ -39,11 +39,13 @@ if(err > 18500){
 else{
 
 double interest;
+double sum_interest=0;
 
-
-for ( int mon = 1; i<=months ; mon++){
+for ( int i = 1; i<=months ; i++){
 
 interest = month_avg * amount;
+
+sum_interest = sum_interest+interest;
 
 }
 
