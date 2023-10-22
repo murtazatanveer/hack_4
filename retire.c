@@ -40,12 +40,16 @@ else{
 
 double interest;
 double sum_interest=0;
+double amount_tot;
 
 for ( int i = 1; i<=months ; i++){
 
 interest = month_avg * amount;
 
-sum_interest = sum_interest+interest;
+sum_interest = sum_interest + interest;
+
+amount_tot = sum_interest + amount;
+
 
 }
 
