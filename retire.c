@@ -32,12 +32,12 @@ float err =  month_add * months;
 
 
 
-if(err > 18500){
+/*if(err > 18500){
 
-    printf("\n\nExceeding maximum annual contribution limit of $18,500.\n")
-}
+    printf("\n\nExceeding maximum annual contribution limit of $18,500.\n");
+}*/
 
-else{
+//else{
 
 double interest;
 double sum_interest=0;
@@ -65,6 +65,6 @@ printf("\nTotal Amount of Interest : $ %.2lf\n\n",sum_interest);
 printf("\n\nTotal Amount of %f Years is  $ %.2lf\n");
 
 
-}
+//}
 
 }
