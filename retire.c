@@ -44,7 +44,7 @@ double sum_interest=0;
 double amount_tot;
 
 for ( int i = 1; i<=months ; i++){
-    
+
 
 interest = month_avg * amount;
 
@@ -52,11 +52,13 @@ sum_interest = sum_interest + interest;
 
 amount_tot = sum_interest + amount;
 
-printf("%d\t%.2lf $ \t%.2lf $ \n\n",i,interest,amount_tot);
+printf("Month : %d \tInterest per month : %.2lf $ \t Amount per month : %.2lf $ \n\n",i,interest,amount_tot);
 
 
 
 }
+
+printf("\n\n___________________FINAL AMOUNTS__________________\n\n");
 
 
 
