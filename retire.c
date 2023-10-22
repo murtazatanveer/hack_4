@@ -41,18 +41,18 @@ float err =  month_add * months;
 
 double interest;
 double sum_interest=0;
-double amount_tot;
+
 
 for ( int i = 1; i<=months ; i++){
 
 
-interest = month_avg * amount;
+interest = (month_avg * amount) / 12;
 
 sum_interest = sum_interest + interest;
 
-amount_tot = sum_interest + amount;
+amount = amount + (month_add + interest);
 
-printf("Month : %d \t Interest per month : $ %.2lf \t Amount per month : $ %.2lf \n\n",i,interest,amount_tot);
+printf("Month : %d \t Interest per month : $ %.2lf \t Amount per month : $ %.2lf \n\n",i,interest,amount);
 
 
 
@@ -62,7 +62,7 @@ printf("\n\n___________________FINAL AMOUNTS__________________\n\n");
 
 printf("\nTotal Amount of Interest : $ %.2lf\n\n",sum_interest);
 
-printf("\n\nTotal Amount of %f Years is  $ %.2lf\n");
+printf("\n\nTotal Amount of %.1f Years is  $ %.2lf\n",years,amount);
 
 
 //}
