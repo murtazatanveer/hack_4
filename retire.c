@@ -52,7 +52,7 @@ sum_interest = sum_interest + interest;
 
 amount_tot = sum_interest + amount;
 
-printf("Month : %d \tInterest per month : %.2lf $ \t Amount per month : %.2lf $ \n\n",i,interest,amount_tot);
+printf("Month : %d \t Interest per month : $ %.2lf \t Amount per month : $ %.2lf \n\n",i,interest,amount_tot);
 
 
 
@@ -60,7 +60,7 @@ printf("Month : %d \tInterest per month : %.2lf $ \t Amount per month : %.2lf $ 
 
 printf("\n\n___________________FINAL AMOUNTS__________________\n\n");
 
-
+printf("\nTotal Amount of Interest : $ %.2lf\n\n",sum_interest);
 
 
 
